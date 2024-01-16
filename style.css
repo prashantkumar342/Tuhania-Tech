@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Foldit:wght@800&family=IM+Fell+Great+Primer+SC&family=Inika&family=Jacques+Francois+Shadow&family=Kaisei+Decol&family=Kalam&family=Unbounded&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Tektur&display=swap');
 
+::-webkit-scrollbar {
+  background-color: rgba(1, 42, 22, 0.828);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.677);
+  border-radius: 50px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
