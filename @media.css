@@ -44,6 +44,22 @@
     font-size: 3vh;
   }
 
+  .social-media {
+    font-size: 4vh;
+  }
+
+  .footer-heading {
+    font-size: 2.5vh;
+  }
+
+  .footer-para {
+    font-size: 2vh;
+  }
+
+  .footer-image img {
+    width: 15vh;
+    height: 15vh;
+  }
 }
 
 @media screen and (max-width:1400px) {
