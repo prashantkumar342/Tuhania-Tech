@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="all.css" />
+  <link rel="stylesheet" href="@media.css" />
+  <script src="all.js"></script>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <i class="fa-solid fa-list-ul" onclick="tutorialMenuopen()"></i>
+      </li>
+      <li class="nav-first-child">Tuhania Tech.</li>
+      <li>
+        <a href="./index.html" class="for-hide"><i class="fa-solid fa-house"></i>Home</a>
+      </li>
+      <li>
+        <a href="tutorials.html" class="for-hide"><i class="fa-solid fa-microchip"></i>Tutorials & Tech</a>
+      </li>
+      <li>
+        <a href="./aboutme.html" class="for-hide"><i class="fa-solid fa-address-card"></i>About me</a>
+      </li>
+      <li>
+        <i class="fa-solid fa-bars" id="fa-bars" onclick="sideMenu()"></i>
+      </li>
+    </ul>
+    <ul class="navigation-menu" id="navigation-menu">
+      <i class="fa-solid fa-xmark" id="fa-xmark" onclick="sideMenuClose()"></i>
+      <li>
+        <a href="./index.html"><i class="fa-solid fa-house"></i>Home</a>
+      </li>
+      <li>
+        <a href="./tutorials.html"><i class="fa-solid fa-microchip"></i>Tutorials & Tech</a>
+      </li>
+      <li>
+        <a href="./aboutme.html"><i class="fa-solid fa-address-card"></i>About me</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="content-btns" id="content-btns">
+      <ul>
+        <li id="content-btn" data-btn="linux">Linux</li>
+        <li id="content-btn" data-btn="os">Operating System</li>
+        <!-- <li id="content-btn" data-btn="macos">MacOS</li> -->
+      </ul>
+    </div>
+    <div id="content-btns-menu-wrapper">
+      <div id="content-btns-menu" class="">
+        <ul class="content-btns-menu">
+          <li class="menu-close-btn"><i class="fa-solid fa-circle-xmark" onclick="tutorialMenuclose()"></i></li>
+          <li id="content-btn" data-btn="linux">Linux</li>
+          <li id="content-btn" data-btn="os">Operating System</li>
+          <!-- <li id="content-btn" data-btn="macos">MacOS</li> -->
+        </ul>
+      </div>
+    </div>
+    <div class="content-articles">
+      <div class="article" id="linux">
+        <h2>Linux</h2>
+        <h3>What is Linux ?</h3>
+        <p><i class="fa-solid fa-pen-nib"></i> Linux is an operating system just like iOS, Android, Windows.
+          Linux is free and open source. In fact, one of the most popular Operating system on the planet, the Android,
+          is powered
+          by the Linux OS. Operating System is an type of Software that manages all the system resources associated with
+          our
+          system.</p><br>
+        <p><i class="fa-solid fa-pen-nib"></i> The main parts or services with Linux developed and run :--</p><br>
+        <p><strong>(1.) Bootloader -</strong> This is also an system software that manages all boot processes of you
+          linux system. boot up your system.
+          Bootloader starts your operating system and starts requried Daemons or services.</p>
+        <p><strong>(2.) Kernel -</strong> This is the one piece of whole that is actually called 'Linux'. The kernel is
+          the core of the Operating System and
+          manages the CPU, memory, and peripheral devices. The kernel is the lowest leve of the Operating System</p>
+        <p><strong>(3.) Init System -</strong> This is a sub-system that bootstraps the user space and is charged with
+          controlling daemons. One of the most widely used
+          init systems is systemd, which also happens to be one of the most controversial. It is the init system that
+          manages the
+          boot process, once the initial booting is handed over from the bootloader.</p>
+        <p><strong>(4.) Daemons -</strong> These are background serives that run in Operating System Such as printing,
+          sound, fax, search indexing or other device
+          drivers and other internet related background services.</p>
+        <p><strong>(5.) Graphical Server -</strong> This is the sub system that renders something on display monitor. It
+          is commonly referred to as the X server or just X.</p>
+        <p><strong>(6.) Desktop Environment -</strong> This is the main piece of graphical user intreaction with linux.
+          using this user can operate the linux operating system
+          because linux do not have its own user interface in most of the case linux distributions are made with a
+          desktop manage
+          that provide us a graphical user interface with the help of this we can able to use or operate the linux
+          ditribution by
+          Graphical User interface. some most popular desktop Environment is:
+        <ul>
+          <li>Gnome</li>
+          <li>KDE Plasama</li>
+          <li>Mint etc.</li>
+        </ul>
+        </p>
+        <p><strong>(7.) Applications -</strong> Desktop environments do not offer the full array of software
+          applications. Just like macOS, Windows, Linux offers
+          thousands upon thousands high-quality softwares titles that can easily found and installed by packge manager
+          or app
+          store. Most modern Linux distributions includes App Store-like tools that centralize and simply application
+          installation. For example, ubunt Linux has the Ubuntu Software Center (a rebran of GNOME Software) which
+          allows you to
+          quickly search among the thousand of apps and install them from one centralizes location.</p>
+      </div>
+      <div class="article" id="os">
+        <h2>Operating System</h2>
+        <p><i class="fa-solid fa-pen-nib"></i><strong> Application Software :</strong> An application software performs
+          a
+          specific task for the user, for the Application Software is designed.</p>
+        <p><i class="fa-solid fa-pen-nib"></i><strong> System Software :</strong> This is an type of Software that runs
+          for make a environment by operates and controls the computer system for run the
+          application software</p><br>
+        <h3><i class="fa-solid fa-pen-nib"></i> What is an Operating System ?</h3>
+        <p>An <Strong>Operating System</Strong> is a piece of software that manages all the resources of a computer
+          system both hardware and
+          software and provides an environment in which users can perform tasks by executing the applications or
+          processes in a
+          convenient and efficient manner. OS hides the complexity of the hardware by working as resource manager.
+        </p>
+        <h3>Layered Structure Of operating System :</h3>
+        <ul>
+          <li><strong>Layer 1 -</strong> Computer Hardware</li>
+          <li><strong>Layer 2 -</strong> CPU Scheduling</li>
+          <li><strong>Layer 3 -</strong> Memory Management</li>
+          <li><strong>Layer 4 -</strong> Process Management</li>
+          <li><strong>Layer 5 -</strong> Operating System</li>
+          <li><strong>Layer 6 -</strong> User Program or Application Softwares</li>
+        </ul><br>
+        <h3><i class="fa-solid fa-pen-nib"></i> Objectives of OS</h3>
+        <p><b>The main targets of an operating system are as follows :
+          </b></p>
+        <ul>
+          <li><b>Convenience -</b> An operating system improves the use of a Hardware. Operating systems gives the
+            ability to users to use systems without
+            the stress of configuring system and resource management.</li>br
+          <li><b>Efficiency -</b> An Operating System has the ability to manage all the resources properly and use them
+            as needed. This is due to less
+            time spent on configuring the system.</li><br>
+          <li><b>Ability to evolve -</b> An operating system should be designed in such a way that it allows for the
+            effective development, testing, and
+            introduction of new features without interfering with service.
+          </li><br>
+          <li><b>Management Of System Resources -</b> Operating systems are able to share resources fairly among various
+            processes that are running and user.
+          </li><br>
+        </ul>
+        <h3><i class="fa-solid fa-pen-nib"></i> Functions Of Operating System</h3>
+        <p>
+        <ol>
+          <li><b>Memory management :</b> <br>
+            <p>Operating System Manages the primary or main memory. If any program is executed, it has to be present in
+              the memory.
+              Main memory is faster than Secondary memory and directly accessed by the CPU. When a program is executed
+              the operating
+              system allocates the required memory to the process of it and by the CPU it handles the process in an
+              efficient manner
+              after the completion of the process Operating System deallocates the memory and free up the space in main
+              memory for
+              another process.</p><br>
+            <b>Operating System :</b>
+            <ul>
+              <li>Allocates and Deallocates the memory</li>
+              <li>Keeping the record of which part of memory is used and which process is using.</li>
+              <li>Distributing the memory while multiprocessing etc.</li>
+            </ul>
+          </li><br>
+          <li>
+            <b>CPU Management or Scheduling :</b><br>
+            <p>Every software that runs on a computer, whether in the background or in the frontend, is a process.
+              Processor management
+              is an execution unit in which a program operates. The operating system determines the status of the
+              processor and
+              processes, selects a job and its processor, allocates the processor to the process, and de-allocates the
+              processor after
+              the process is completed
+              <br><br>When more than one process runs on the system the OS decides how and when a process will use the
+              CPU.
+              Hence, the name is
+              also <b>CPU Scheduling. <br>The OS :</b>
+            <ul>
+              <li>Manages the CPU uses by process.</li>
+              <li>Keeps the record of CPU status.
+              </li>
+            </ul><br>
+            <b>Certain algorithms used for CPU Scheduling in OS are as follows :</b>
+            <ul>
+              <li>First Come First Out.
+              </li>
+              <li>Shortest Job First.</li>
+              <li>Round-Robin Scheduling.</li>
+              <li>Priority-based scheduling etc.</li>
+            </ul>
+            </p>
+          </li>
+          <li><b>File Management :</b><br>The operating system manages resource allocation and deallocation. It
+            specifies
+            which process receives the file and for
+            how long. It also keeps track of information, location,uses,status, and so on. These groupings of resources
+            are referred
+            to as file systems. The files on a system are stored in different directories. <br><b>The OS:</b><br>
+            <ul>
+              <li>Keeps records of the status of and locations of files.
+              </li>
+              <li>Allocates and deallocates.</li>
+              <li>Decides who gets the resources</li>
+            </ul>
+          </li><br>
+          <li><b>Storage management :</b><br>
+            Storage Management is defined as it refers to the management of the data storage equipment’s that are used
+            to store the
+            user/computer generated data. Hence it is a tool or set of processes used by an administrator to keep your
+            data and
+            storage equipment’s safe. Storage management is a process for users to optimize the use of storage devices
+            and to
+            protect the integrity of data for any media on which it resides and the category of storage
+            management generally contain the different type of subcategories covering aspects such as security,
+            virtualization and
+            more, as well as different types of provisioning or automation, which is generally made up the entire
+            storage management
+            software market.
+            <br><br>
+            <b>The OS uses storage management for :</b><br>
+            <ul>
+              <li>Improving the performance of the data storage resources.</li>
+              <li>It Optimizes the use of various storage devices.</li>
+              <li>Assists businesses in storing more data on exiting hardware, speeding up the data retrieval process,
+                preventing,
+                preventing data loss, meeting data retention regulations, and lowering IT costs.</li>
+            </ul>
+          </li>
+        </ol>
+        <br>
+        </p>
+      </div>
+      <!-- <div class="article" id="macos">
+        <h2>MacOS</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, mollitia perferendis nihil impedit facilis ea
+          repellendus ducimus veritatis rerum nostrum quisquam quia sed asperiores placeat quidem doloribus unde
+          delectus magnam, nobis aut qui excepturi tenetur!</p>
+      </div> -->
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

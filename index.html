@@ -1,130 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tuhania Tech</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="all.css" />
-    <link rel="stylesheet" href="@media.css" />
-    <script src="all.js"></script>
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li class="nav-first-child">Tuhania Tech.</li>
-          <li>
-            <a href="#" class="for-hide"
-              ><i class="fa-solid fa-house"></i>Home</a
-            >
-          </li>
-          <li>
-            <a href="#" class="for-hide"
-              ><i class="fa-solid fa-microchip"></i>Tutorials & Tech</a
-            >
-          </li>
-          <li>
-            <a href="./aboutme.html" class="for-hide"
-              ><i class="fa-solid fa-address-card"></i>About me</a
-            >
-          </li>
-          <li>
-            <i class="fa-solid fa-bars" id="fa-bars" onclick="sideMenu()"></i>
-          </li>
-        </ul>
-        <ul class="navigation-menu" id="navigation-menu">
-          <i
-            class="fa-solid fa-xmark"
-            id="fa-xmark"
-            onclick="sideMenuClose()"
-          ></i>
-          <li>
-            <a href="#"><i class="fa-solid fa-house"></i>Home</a>
-          </li>
-          <li>
-            <a href="#"
-              ><i class="fa-solid fa-microchip"></i>Tutorials & Tech</a
-            >
-          </li>
-          <li>
-            <a href="./aboutme.html"
-              ><i class="fa-solid fa-address-card"></i>About me</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <div class="overview">
-        <div class="overview-image">
-          <img src="./res/Tuhania.png" alt="" />
-        </div>
-        <div class="overview-heading">
-          <p>☬ 𝓦𝓮𝓵𝓬𝓸𝓶𝓮 𝓣𝓸 𝓣𝓾𝓱𝓪𝓷𝓲𝓪 𝓣𝓮𝓬𝓱 ☬</p>
-        </div>
-        <div class="overview-para">
-          <p>
-            Learn About Technology And Some Sense of Working on Any computer
-            Technology. Let’s Take Tour of My blog and Learn about Technical
-            problem or issue Fixes, Operating Systems Like Windows, Linux
-            Distributions and much more regarding to Tech.
-          </p>
-        </div>
-      </div>
-    </header>
-    <main>
-      <div class="tutos">
-        <div class="tuto1" id="tuto1">
-          <div class="img">
-            <img src="./res/linux.png" alt="" />
-            <p class="tutohead">Linux</p>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tuhania Tech</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="all.css" />
+  <link rel="stylesheet" href="@media.css" />
+  <script src="all.js"></script>
+</head>
 
-          <p>
-            Let’s Take Tour of Linux. Learn basic and intresting things about
-            Linux and their distributions. Learn about OS interaction by command
-            line. See the linux without GUI and with GUI using Different Desktop
-            Managers Customizing Linux and much more about linux.
-          </p>
-        </div>
-        <div class="tuto2">
-          <div class="img">
-            <img src="./res/windows.png" alt="" />
-            <p class="tutohead">Windows</p>
-          </div>
-          <p>
-            Let’s take tour of a world's most popular and most used Operating
-            system the microsoft windows. in this Tutorial we will talk about
-            the ui of windows, uses, and some other basics of it.
-          </p>
-        </div>
-        <div class="tuto3">
-          <div class="img">
-            <img src="./res/macOs.png" alt="" />
-            <p class="tutohead">MacOS</p>
-          </div>
-          <p>
-            MacOS is also an operating system that comes preloaded with apple macintosh computers.
-            macOS mostly used in video editing, playing games, mails etc.
-            let's come and check more about macos and apple.
-          </p>
-        </div>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="nav-first-child">Tuhania Tech.</li>
+        <li>
+          <a href="./index.html" class="for-hide"><i class="fa-solid fa-house"></i>Home</a>
+        </li>
+        <li>
+          <a href="tutorials.html" class="for-hide"><i class="fa-solid fa-microchip"></i>Tutorials & Tech</a>
+        </li>
+        <li>
+          <a href="./aboutme.html" class="for-hide"><i class="fa-solid fa-address-card"></i>About me</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-bars" id="fa-bars" onclick="sideMenu()"></i>
+        </li>
+      </ul>
+      <ul class="navigation-menu" id="navigation-menu">
+        <i class="fa-solid fa-xmark" id="fa-xmark" onclick="sideMenuClose()"></i>
+        <li>
+          <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+        </li>
+        <li>
+          <a href="./tutorials.html"><i class="fa-solid fa-microchip"></i>Tutorials & Tech</a>
+        </li>
+        <li>
+          <a href="./aboutme.html"><i class="fa-solid fa-address-card"></i>About me</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="overview">
+      <div class="overview-image">
+        <img src="./res/Tuhania.png" alt="" />
       </div>
-    </main>
-    <footer>
-      <div class="footer-image"><img src="./res/profilePic.jpeg.jpg" alt=""></div>
-      <div class="footer-details">
-        <div class="footer-heading">Thanks for visiting our web</div>
-        <div class="social-media">
-          <a href="https://www.instagram.com/b_b_hunter/"><i class="fa-brands fa-square-instagram"></i></a>
-          <a href="https://github.com/prashantkumar342"><i class="fa-brands fa-square-github"></i></a>
-          <a href="https://www.linkedin.com/in/tuhaniatech/"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
-        <div class="footer-para">
-          hello guys, check my social media also and get source code of open source projects.
-        </div>
+      <div class="overview-heading">
+        <p>☬ 𝓦𝓮𝓵𝓬𝓸𝓶𝓮 𝓣𝓸 𝓣𝓾𝓱𝓪𝓷𝓲𝓪 𝓣𝓮𝓬𝓱 ☬</p>
       </div>
-    </footer>
-    <script src="main.js"></script>
-  </body>
+      <div class="overview-para">
+        <p>
+          Learn About Technology And Some Sense of Working on Any computer
+          Technology. Let’s Take Tour of My blog and Learn about Technical
+          problem or issue Fixes, Operating Systems Like Windows, Linux
+          Distributions and much more regarding to Tech.
+        </p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="tutos">
+      <div class="tuto" id="tuto1">
+        <div class="img">
+          <img src="./res/linux.png" alt="" />
+          <p class="tutohead">Linux</p>
+        </div>
+
+        <p>
+          Let’s Take Tour of Linux. Learn basic and intresting things about
+          Linux and their distributions. Learn about OS interaction by command
+          line. See the linux without GUI and with GUI using Different Desktop
+          Managers Customizing Linux and much more about linux. <a href="./tutorials.html"><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </p>
+      </div>
+      <div class="tuto">
+        <div class="img">
+          <img src="./res/windows.png" alt="" />
+          <p class="tutohead">Windows</p>
+        </div>
+        <p>
+          Let’s take tour of a world's most popular and most used Operating
+          system the microsoft windows. in this Tutorial we will talk about
+          the ui of windows, uses, and some other basics of it.<a href="./tutorials.html"><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </p>
+      </div>
+      <div class="tuto">
+        <div class="img">
+          <img src="./res/macOs.png" alt="" />
+          <p class="tutohead">MacOS</p>
+        </div>
+        <p>
+          MacOS is also an operating system that comes preloaded with apple macintosh computers.
+          macOS mostly used in video editing, playing games, mails etc.
+          let's come and check more about macos and apple.<a href="./tutorials.html"><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-image"><img src="./res/prashant.png" alt=""></div>
+    <div class="footer-details">
+      <div class="footer-heading">Thanks for visiting our web</div>
+      <div class="social-media">
+        <a href="https://www.instagram.com/b_b_hunter/"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://github.com/prashantkumar342"><i class="fa-brands fa-square-github"></i></a>
+        <a href="https://www.linkedin.com/in/tuhaniatech/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="footer-para">
+        hello guys, check my social media also and get source code of open source projects.
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
 </html>

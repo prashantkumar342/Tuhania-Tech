@@ -1,4 +1,4 @@
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1300px) {
   nav .nav-first-child {
     font-size: 3vh;
   }
@@ -23,7 +23,16 @@
     /* outline: red solid; */
     font-size: 3vh;
   }
+}
 
+@media screen and (max-width:1100px) {
+  .fa-list-ul {
+    display: inline;
+  }
+
+  main .content-btns {
+    display: none;
+  }
 }
 
 @media screen and (max-width:600px) {
@@ -60,6 +69,10 @@
     width: 15vh;
     height: 15vh;
   }
+
+  /* main #content-btns-menu {
+    display: block;
+  } */
 }
 
 @media screen and (max-width:1400px) {
@@ -68,6 +81,10 @@
   }
 
   .profilepara {
+    font-size: 2vh;
+  }
+
+  nav a {
     font-size: 2vh;
   }
 }
