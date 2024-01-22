@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Tektur&display=swap');
 
 ::-webkit-scrollbar {
-  background-color: rgba(1, 42, 22, 0.828);
+  background-color: rgba(177, 196, 187, 0.828);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  background-image: url(./res/bg.png);
+  background-image: url(./res/skybg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -59,7 +59,7 @@ nav .fa-bars {
   margin-right: 1vh;
   cursor: pointer;
   margin-top: 3vh;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 4vh;
 }
 
@@ -70,7 +70,7 @@ nav .fa-bars {
 nav .nav-first-child {
   margin-left: 2vh;
   cursor: pointer;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: "Unbounded";
   font-size: 4vh;
   margin-right: auto;
@@ -79,7 +79,7 @@ nav .nav-first-child {
 nav a {
   margin-right: 2vw;
   font-size: 2.5vh;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   /* outline: red solid; */
   padding: 0.2em 0.4em 0.2em 0.4em;
@@ -107,11 +107,12 @@ nav a:hover {
 .navigation-menu li {
   text-align: center;
   width: 100%;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .navigation-menu a {
   text-align: center;
+  color: white;
 }
 
 .navigation-menu .fa-xmark {
@@ -120,7 +121,7 @@ nav a:hover {
   margin-top: 2vw;
   margin-left: 2vw;
   font-size: 4vh;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .overview {
@@ -134,13 +135,13 @@ nav a:hover {
 }
 
 .overview-heading {
-  font-size: 4vh;
+  font-size: 5vh;
   padding: 2vh 1vw 2vh 1vw;
   width: 100%;
   text-align: center;
-  font-family: "IM Fell Great Primer SC";
+  font-family: "Unbounded";
   letter-spacing: 1px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .overview-para {
@@ -149,7 +150,7 @@ nav a:hover {
   width: 100%;
   font-size: 4vh;
   font-family: "kalam";
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .overview-image {
@@ -162,7 +163,7 @@ nav a:hover {
 }
 
 .overview-image img {
-  background-color: rgba(250, 235, 215, 0.286);
+  background-color: rgba(255, 255, 255, 0);
   width: 40vw;
 }
 
@@ -207,7 +208,7 @@ nav a:hover {
   height: fit-content;
   width: 90vw;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: 'Playfair Display';
 }
 
@@ -221,7 +222,7 @@ nav a:hover {
 }
 
 .tutos a {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .tutos img {
@@ -237,7 +238,7 @@ nav a:hover {
   padding: 20px;
   font-size: 2vh;
   text-transform: capitalize;
-  color: white;
+  color: rgb(0, 0, 0);
   width: 95vw;
   -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, );
   -moz-box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
@@ -289,7 +290,7 @@ footer {
 }
 
 .footer-heading {
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: 'Unbounded';
   text-align: center;
   font-size: 4vh;
@@ -308,13 +309,13 @@ footer {
 }
 
 .social-media a {
-  color: wheat;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
 .footer-para {
   padding: 2vh 1vh 2vh 1vh;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: 'Unbounded';
   font-size: 3vh;
   text-align: center;
@@ -322,7 +323,7 @@ footer {
 
 /*Tutorials & Techs*/
 .fa-list-ul {
-  color: white;
+  color: rgb(0, 0, 0);
   margin-top: 3.5vh;
   font-size: 3vh;
   margin-left: 2vh;
@@ -335,7 +336,8 @@ main {
 
 main #content-btns-menu li {
   text-align: center;
-  border-bottom: 1px solid white;
+  color: white;
+  border-bottom: 1px solid rgb(255, 255, 255);
   font-size: 4vh;
   list-style: none;
 }
@@ -345,10 +347,10 @@ main #content-btns-menu li {
 }
 
 main #content-btns-menu {
-  border-right: 1px solid white;
+  border-right: 1px solid rgb(0, 0, 0);
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.894);
+  background: rgba(0, 0, 0, 0.788);
   position: fixed;
   top: 0;
   /* display: none; */
@@ -366,7 +368,7 @@ main .content-btns-menu {
 .menu-close-btn {
   padding: 2vh;
   display: flex;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 main .content-btns li {
@@ -379,7 +381,7 @@ main .content-btns li {
 }
 
 .content-btns ul li {
-  border-bottom: 1px white solid;
+  border-bottom: 1px rgb(0, 0, 0) solid;
   /* text-align: center; */
   list-style: none;
 }
@@ -392,7 +394,7 @@ main .content-btns li {
   cursor: pointer;
   padding: 1vh 1vw;
   margin-top: 2vh;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 2.5vh;
   -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, );
   -moz-box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
@@ -408,7 +410,7 @@ main .content-btns li {
   margin-top: 2vh;
   padding: 1vh 2vw;
   font-size: 2vh;
-  color: white;
+  color: rgb(0, 0, 0);
   display: none;
   -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, );
   -moz-box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
@@ -416,7 +418,7 @@ main .content-btns li {
 }
 
 .article h2 {
-  font-size: 5vh;
+  font-size: 4vh;
   font-family: 'unbounded';
   padding: 1vh;
 }
@@ -424,20 +426,20 @@ main .content-btns li {
 .article h3 {
   font-size: 3vh;
   padding: 1vh;
-  color: rgb(255, 255, 255);
-  text-shadow: 1px 1px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  /* text-shadow: 1px 1px rgb(0, 0, 0); */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .article strong {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5vh;
+  font-size: 2vh;
 }
 
 .article ul,
 .article ol {
   margin-left: 5vh;
-  font-size: 2.2vh;
+  font-size: 2vh;
   font-family: Arial, Helvetica, sans-serif;
   /* outline: red solid; */
 }
@@ -447,8 +449,8 @@ main .content-btns li {
 }
 
 .article p {
-  font-size: 2.2vh;
+  font-size: 2vh;
   font-family: Arial, Helvetica, sans-serif;
   padding: 1vh;
-  line-height: 30px;
+  /* line-height: 30px; */
 }
